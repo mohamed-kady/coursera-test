@@ -10,7 +10,7 @@ h1{margin-bottom: 30px;
 
 div{
     width: 95%;
-    height: 70%;
+    height: 200px;
     padding: 0px 5% 5% 5% ;
     margin-right: auto;
     margin-left: auto;
@@ -22,12 +22,12 @@ div{
      }
 
 p{       
-         width: 40%;
-         height: 30%;
-         background-color: red;
-         border: 1px solid black;
-         text-align:center;
-         margin-bottom: 10px;
+     width: 40%;
+     height: 30%;
+     background-color: red;
+     border: 1px solid black;
+     text-align:center;
+     margin-bottom: 10px;
 
                 
 }
@@ -52,7 +52,7 @@ p{
 @media (max-width:767px ) {
 	.col-s-1
 {    float: left; }	
-.col-s-1 {width: 100%}
+.col-s-1 {width: 100%; }
 }
 
 #chicken{ background-color: blue;  position: relative; left: 66%; right: 0;}
